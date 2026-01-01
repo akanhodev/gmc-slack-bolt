@@ -15,7 +15,6 @@ interface GreetingProps {
 
 
 const Greeting = ({ name }: GreetingProps): JSX.Element => {
-  // Step 3: Return JSX - TypeScript ensures 'name' is always a string
   return <div>Hello, {name}!</div>;
 };
 
